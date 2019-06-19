@@ -8,7 +8,7 @@ public class CarlzSeq {
             sum += factor / (2 * k + 1);
             factor = -factor;
         }
-        return (double) 4.0 * sum;
+        return (4.0 * sum);
     }
 
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class CarlzSeq {
         System.out.print("Informe a quantidade de iterações a calcular: ");
         int numeroIteracoes = scannerObj.nextInt();
         System.out.println("Nº Iterações : " + numeroIteracoes);
+
 
         System.out.println("Gregory Numero de processadores: " + Runtime.getRuntime().availableProcessors());
         System.out.println("Vamos calcular - Formula Professor");

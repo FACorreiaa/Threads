@@ -30,6 +30,6 @@ public class MontecarloSeq {
         double result = formMontecarloSeq(numeroPontos);
         long stopTime = System.nanoTime();
         System.out.println("resultado: " + result);
-        System.out.println("Time Duration: " + (stopTime - startTime)*0.001 + "s");
+        System.out.println("Time Duration: " + (stopTime - startTime)/0.001 + "s");
     }
 }
