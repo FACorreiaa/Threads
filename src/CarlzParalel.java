@@ -12,18 +12,18 @@ public class CarlzParalel implements Callable<Double> {
     }
 
     public Double call() throws Exception {
-        double valor = 0.0;
+        double sum = 0.0;
         double fator;
         for (int i = inicio; i <= fim; i++) {
-            if (inicio % 2 == 0) {
+            if (i % 2 == 0) {
                 fator = Math.pow(1.0, i + 1);
             } else {
-                fator = Math.pow(-1.0, i + 1);
+                fator = Math.pow(1.0, i - 1);
             }
-            valor += fator / (2.0 * (double) i - 1.0);
+            sum += fator / (2.0 * (double) i - 1.0);
         }
 
-        return valor;
+        return sum;
     }
 
 
@@ -31,7 +31,11 @@ public class CarlzParalel implements Callable<Double> {
         //cria um pool de threads para realizar o cálculo
         Scanner scannerObj = new Scanner(System.in);
         long ti = System.currentTimeMillis();
+        System.out.print("Informe a número máx de threads:");
+        int numetothreads = scannerObj.nextInt();
+        Thread[] listathreads = new Thread[numetothreads];
 
+        System.out.println("Nº threads : " + listathreads);
         ExecutorService es = Executors.newCachedThreadPool();
 
         //separa o cálculo em 4 partes definindo o valor de n inicial e final para cada uma
@@ -79,6 +83,8 @@ public class CarlzParalel implements Callable<Double> {
         double ganho = (divisao) * 100;
         System.out.println("Tempo gasto sem concorrência " + tsc);
         System.out.println("ganho % – TCC/TSC * 100 = " + ganho + " %");
+        System.out.println("Numero de processadores: " + Runtime.getRuntime().availableProcessors());
+
 
     }
 }
