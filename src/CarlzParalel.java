@@ -88,9 +88,9 @@ public class CarlzParalel implements Callable<Double> {
         //separa o cálculo em 4 partes definindo o valor de n inicial e final para cada uma
 
         //1200000000
-        System.out.print("Informe a quantidade de iterações a calcular: ");
+        //System.out.print("Informe a quantidade de iterações a calcular: ");
         int numeroPontos = scannerObj.nextInt();
-        double result = formCarlzSeq(numeroPontos);
+        double result = formCarlzSeq(1200000000);
 
 
         //junta os valores cálculados das 4 partes e multiplica por 4
