@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class CarlzSeq {
+    private final static int ITERATIONS = 10;
+
     public static double formCarlzSeq(int numeroIteracoes) {
         double factor = 1.0;
         double sum = 0.0;
@@ -19,11 +21,19 @@ public class CarlzSeq {
 
 
         System.out.println("Gregory Numero de processadores: " + Runtime.getRuntime().availableProcessors());
-        System.out.println("Vamos calcular - Formula Professor");
         long startTime = System.nanoTime();
         double result = formCarlzSeq(numeroIteracoes);
         long stopTime = System.nanoTime();
-        System.out.println("resultado: " + result);
-        System.out.println("Calculo demorou (secs): " + (stopTime - startTime)*0.001 + "s");
+        long totalTime = stopTime - startTime;
+        System.out.println("π: " + result);
+        System.out.println("Calculo Sequencial (secs): "  + String.format("%.6f", (totalTime)/1.0e9) );
+
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < ITERATIONS; ++i) {
+            formCarlzSeq(numeroIteracoes);
+        }
+        long elapsed = System.currentTimeMillis() - start;
+        long average = elapsed / ITERATIONS;
+        System.out.println("Para " + ITERATIONS + " iteracoes" + "o tempo médio foi: " + String.format("%.6f", (average)/1.0e9) + "s");
     }
 }

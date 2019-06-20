@@ -1,16 +1,13 @@
-package trabalho_pi;
 
 import java.util.Scanner;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
-class CalculatePi1 extends Thread
+class CalculatePi extends Thread
 {
     double sum = 0;
     int numeroPontos = 0;
-    int denominator = 1;
-
-    CalculatePi1(int _numeroPontos)
+    CalculatePi(int _numeroPontos)
     {
         System.out.println("my thread created" + numeroPontos);
         numeroPontos = _numeroPontos;
@@ -21,12 +18,15 @@ class CalculatePi1 extends Thread
         double factor = 1.0;
         for (int k = 0; k < numeroPontos; k++)
         {
-            if (k % 2 == 0) {
-                sum += (1 / denominator);
-            } else {
-                sum -= (1 / denominator);
+            if(k%2 == 0)
+            {
+                factor = 1;
             }
-            denominator = denominator + 2;
+            else
+            {
+                factor = -1;
+            }
+            sum += factor / (2 * k + 1);
         }
     }
 
@@ -35,12 +35,11 @@ class CalculatePi1 extends Thread
         return (double) 4.0 * sum;
     }
 }
-public class CarlzParalel_V2 {
+public class MonteCarlo_Multithread {
 
 
     public static void main(String[] args)
     {
-
         Scanner scannerObj = new Scanner(System.in);
         System.out.print("Informe a quantidade de iterações a calcular: ");
         int numeroIteracoes = scannerObj.nextInt();
@@ -54,7 +53,7 @@ public class CarlzParalel_V2 {
 
 
         long inicio = System.nanoTime();
-        CalculatePi1 calculatePi = new CalculatePi1(5);
+        CalculatePi calculatePi = new CalculatePi(numeroIteracoes);
         calculatePi.start();
         while(calculatePi.isAlive())
         {

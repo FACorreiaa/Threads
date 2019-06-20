@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1607f296-c5d3-4ee0-8b07-5b3765c4d3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CarlzParalel_V2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PCD/CarlzParalel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/CarlzParalel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/concurrencyV2$CarlzParalel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/concurrencyV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/concurrencyseq$GregoryLeibnizPar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/concurrencyseq$MonteCarloPar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/concurrencyseq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/CarlzSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/CarlzSeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloPar$MonteCarlo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/MontecarloPar$MonteCarlo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloPar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/MontecarloPar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/MontecarloSeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/trabalho_pi/CalculatePi1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/trabalho_pi/CarlzParalel_V2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarlzParalel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarlzParalel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarlzParalel_V2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarlzSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarlzSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MontecarloPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MontecarloPar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MontecarloSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MontecarloSeq.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +31,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="173">
+              <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Assignment102.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="56" column="48" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,26 +68,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CarlzParalel_V2.java">
+        <entry file="file://$PROJECT_DIR$/src/MonteCarlo_Multithread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="34">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="306">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="46" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -102,13 +118,18 @@
       <find>Tempo gasto com concorrência</find>
       <find>numeroPontos</find>
       <find>Tempo gasto sem concorrência</find>
-      <find>CarlzParalel</find>
       <find>itemsPerThread</find>
       <find>itemsInFirstThread</find>
       <find>GregoryLeibnizImpl</find>
       <find>totalSam</find>
       <find>listathreads</find>
       <find>Thread</find>
+      <find>begin</find>
+      <find>inicio</find>
+      <find>run</find>
+      <find>CarlzParalel</find>
+      <find>sampleCircleArea</find>
+      <find>samples</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,16 +139,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/concurrencyseq.java" />
-        <option value="$PROJECT_DIR$/src/MontecarloPar.java" />
         <option value="$PROJECT_DIR$/src/concurrencyV2.java" />
-        <option value="$PROJECT_DIR$/src/MontecarloSeq.java" />
-        <option value="$PROJECT_DIR$/src/CarlzSeq.java" />
         <option value="$PROJECT_DIR$/src/CarlzParalel_V2.java" />
+        <option value="$PROJECT_DIR$/src/CarlzParalel_V3.java" />
+        <option value="$PROJECT_DIR$/src/CarlzSeq.java" />
+        <option value="$PROJECT_DIR$/src/MontecarloSeq.java" />
+        <option value="$PROJECT_DIR$/src/MontecarloPar_V2.java" />
+        <option value="$PROJECT_DIR$/src/MontecarloPar_V3.java" />
+        <option value="$PROJECT_DIR$/src/MonteCarlo_Multithread.java" />
+        <option value="$PROJECT_DIR$/src/MontecarloPar.java" />
+        <option value="$PROJECT_DIR$/src/teste.java" />
+        <option value="$PROJECT_DIR$/src/MonteCarlo_Multithread2.java" />
+        <option value="$PROJECT_DIR$/src/Assignment102.java" />
         <option value="$PROJECT_DIR$/src/CarlzParalel.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -160,14 +188,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_211" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\Documents\Mestrado Engenharia Informática\PCD\Threads\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,6 +215,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.CarlzParalel">
+    <configuration name="Assignment102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment102" />
+      <module name="PCD" />
+      <option name="VM_PARAMETERS" value="-Xmx4048m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarlzParalel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarlzParalel" />
       <module name="PCD" />
@@ -190,123 +230,117 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarlzParalel_V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trabalho_pi.CarlzParalel_V2" />
+    <configuration name="CarlzSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarlzSeq" />
       <module name="PCD" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MontecarloPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MontecarloPar" />
+    <configuration name="MonteCarlo_Multithread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MonteCarlo_Multithread" />
       <module name="PCD" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MontecarloSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MontecarloSeq" />
+    <configuration name="MonteCarlo_Multithread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MonteCarlo_Multithread2" />
       <module name="PCD" />
+      <option name="VM_PARAMETERS" value="-Xmx8048m" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="concurrencyV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrencyV2" />
-      <module name="PCD" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.MonteCarlo_Multithread" />
+      <item itemvalue="Application.MonteCarlo_Multithread2" />
+      <item itemvalue="Application.Assignment102" />
+      <item itemvalue="Application.CarlzParalel" />
+      <item itemvalue="Application.CarlzSeq" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CarlzParalel" />
-        <item itemvalue="Application.CarlzParalel_V2" />
-        <item itemvalue="Application.MontecarloPar" />
-        <item itemvalue="Application.MontecarloSeq" />
-        <item itemvalue="Application.concurrencyV2" />
+        <item itemvalue="Application.CarlzSeq" />
+        <item itemvalue="Application.Assignment102" />
+        <item itemvalue="Application.MonteCarlo_Multithread" />
+        <item itemvalue="Application.MonteCarlo_Multithread2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="24" width="1512" height="768" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25344354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24933155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29535866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32761312" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32861635" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32761312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2558299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32761312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32861635" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32761312" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="        int N = scannerObj.nextInt();&#10;" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/concurrencyV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyseq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="139" column="58" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrencyV2.java" />
+    <entry file="file://$PROJECT_DIR$/src/concurrencyseq.java" />
     <entry file="file://$PROJECT_DIR$/src/CarlzParalel_V2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="46" column="25" selection-start-line="43" selection-start-column="8" selection-end-line="50" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
@@ -315,10 +349,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarlzParalel_V3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+          <folding>
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MontecarloPar_V2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MonteCarlo_Multithread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="94" lean-forward="true" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assignment102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="173">
+          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -342,6 +446,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
