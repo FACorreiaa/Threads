@@ -6,10 +6,12 @@ public class MontecarloPar {
     static AtomicInteger nAtomSuccess;
     int nThrows;
     double value;
-    private final static int ITERATIONS = 10;
+    private final static int ITERATIONS = 25;
     public static double x = 0;
     public static double y = 0;
     public static int nSuccess = 0;
+    private  static long startTime = 0;
+    private  static long stopTime = 0;
     static class MonteCarlo implements Runnable {
         @Override
         public void run() {
@@ -39,16 +41,6 @@ public class MontecarloPar {
         value = 4.0 * nAtomSuccess.get() / nThrows;
         return value;
     }
-
-    public static double formMontecarloSeq(long numeroPontos) {
-        for (long i = 1; i <= numeroPontos; i++) {
-            x = Math.random();
-            y = Math.random();
-            if (x * x + y * y <= 1)
-                nSuccess++;
-        }
-        return (4.0* nSuccess / numeroPontos);
-    }
     //1200000000
 
     public static void  main(String[] args) throws InterruptedException{
@@ -61,33 +53,24 @@ public class MontecarloPar {
         System.out.println("Nº threads : " + numetothreads);
         //ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(numetothreads);
         MontecarloPar PiVal = new MontecarloPar(numeroPontos);
-
-        long startTime = System.currentTimeMillis();
+        startTime = System.nanoTime();
         double value = PiVal.getPi(numetothreads);
-        long stopTime = System.currentTimeMillis();
+        stopTime = System.nanoTime();
         System.out.println("π com concorrencia: " + value);
         long totalTime = stopTime - startTime;
-        System.out.println("Calculo com concorrencia demorou demorou (secs): "  + String.format("%.6f", (totalTime)/1.0e9) );
-
-        long startTimeSemConc = System.nanoTime();
-        double result = formMontecarloSeq(numeroPontos);
-        long stopTimeSemConc = System.nanoTime();
-        System.out.println("π sem concorrencia: " + result);
-        long totalTimeSemConc = stopTime - startTime;
-        System.out.println("Calculo sequencial demorou (secs): "  + String.format("%.6f", (totalTimeSemConc)/1.0e9) );
-
-        double divisao = (double) totalTime / (double) totalTimeSemConc;
-        double ganho = (divisao) * 100;
-        System.out.println("ganho % – TCC/TSC * 100 = " + ganho + " %");
+        double elapsedTimeInSecond = (double) totalTime / 1_000_000_000;
+        System.out.println("Calculo sequencial demorou (secs): " + elapsedTimeInSecond );
 
 
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         for (int i = 0; i < ITERATIONS; ++i) {
-            PiVal.getPi(numetothreads);
+            MontecarloPar pipi = new MontecarloPar(numeroPontos);
+            value = pipi.getPi(numetothreads);
         }
-        long elapsed = System.currentTimeMillis() - start;
-        long average = elapsed / ITERATIONS;
-        System.out.println("Para " + ITERATIONS + "iteracoes" + "o tempo médio foi: " + String.format("%.6f", (average)/1.0e9) + "s");
+        long stop = System.nanoTime();
+        long ttTime = stop - start;
+        double ttTimeSeconds = ((double)ttTime/1_000_000_000) / ITERATIONS;
+        System.out.println("Para " + ITERATIONS + " iteracoes" + "o tempo médio foi: " + ttTimeSeconds + "s");
 
     }
 }
