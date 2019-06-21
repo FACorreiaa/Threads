@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1607f296-c5d3-4ee0-8b07-5b3765c4d3ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/Assignment102.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/CalculatePi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/CarlzParalel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/CarlzParalel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/MonteCarlo_Multithread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/PiMonteCarlo$MonteCarlo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PCD/PiMonteCarlo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment102.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarlzParalel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarlzParalel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarlzSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarlzSeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonteCarlo_Multithread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MontecarloPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MontecarloPar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MontecarloSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MontecarloSeq.java" afterDir="false" />
-    </list>
+    <list default="true" id="1607f296-c5d3-4ee0-8b07-5b3765c4d3ce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +29,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MONTEParalel_BETA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -267,7 +262,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.29759705" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.29759705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,13 +314,6 @@
     <entry file="file://$PROJECT_DIR$/src/teste.java" />
     <entry file="file://$PROJECT_DIR$/src/Assignment102_TESTE.java" />
     <entry file="file://$PROJECT_DIR$/src/MonteCarlo_Multithread_TESTE.java" />
-    <entry file="file://$PROJECT_DIR$/src/MONTEParalel_BETA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -357,6 +345,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MONTEParalel_BETA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
         </state>
       </provider>
     </entry>
