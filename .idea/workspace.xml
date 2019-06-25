@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1607f296-c5d3-4ee0-8b07-5b3765c4d3ce" name="Default Changelist" comment="" />
+    <list default="true" id="1607f296-c5d3-4ee0-8b07-5b3765c4d3ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Livro1.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relatório.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Relatório.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/CarlzParalel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/CarlzSeq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MONTEParalel_BETA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PCD/MONTEParalel_BETA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloPar$MonteCarlo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloPar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PCD/MontecarloSeq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarlzParalel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gregory_Leibniz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarlzSeq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MONTEParalel_BETA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MONTEParalel_BETA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MontecarloPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monte_Carlo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MontecarloSeq.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Monte_Carlo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="219">
+              <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,41 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MONTEParalel_BETA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+            <state relative-caret-position="1139">
+              <caret line="68" column="60" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
+        <entry file="file://$PROJECT_DIR$/src/Gregory_Leibniz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="1003">
+              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -100,6 +97,7 @@
       <find>sampleCircleArea</find>
       <find>samples</find>
       <find>formCarlzSeq</find>
+      <find>startTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,24 +117,33 @@
         <option value="$PROJECT_DIR$/src/MonteCarlo_Multithread2.java" />
         <option value="$PROJECT_DIR$/src/Assignment102.java" />
         <option value="$PROJECT_DIR$/src/MONTEParalel_BETA.java" />
-        <option value="$PROJECT_DIR$/src/CarlzParalel.java" />
         <option value="$PROJECT_DIR$/src/CarlzSeq.java" />
-        <option value="$PROJECT_DIR$/src/MontecarloPar.java" />
+        <option value="$PROJECT_DIR$/src/CarlzParalel.java" />
         <option value="$PROJECT_DIR$/src/MontecarloSeq.java" />
+        <option value="$PROJECT_DIR$/src/MontecarloPar.java" />
+        <option value="$PROJECT_DIR$/src/Gregory_Leibniz.java" />
+        <option value="$PROJECT_DIR$/src/Monte_Carlo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-71" />
-    <option name="y" value="79" />
-    <option name="width" value="1940" />
-    <option name="height" value="1041" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,8 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +168,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -185,15 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarlzParalel">
-    <configuration name="CarlzParalel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarlzParalel" />
-      <module name="PCD" />
-      <option name="VM_PARAMETERS" value="-Xms256m -Xmx8g" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Monte_Carlo">
     <configuration name="CarlzSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarlzSeq" />
       <module name="PCD" />
@@ -202,8 +199,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MONTEParalel_BETA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MONTEParalel_BETA" />
+    <configuration name="Gregory_Leibniz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Gregory_Leibniz" />
+      <module name="PCD" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx8g" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Monte_Carlo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Monte_Carlo" />
       <module name="PCD" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,6 +217,7 @@
     <configuration name="MontecarloPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MontecarloPar" />
       <module name="PCD" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx8g" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,24 +225,25 @@
     <configuration name="MontecarloSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MontecarloSeq" />
       <module name="PCD" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx8g" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CarlzParalel" />
+      <item itemvalue="Application.Gregory_Leibniz" />
       <item itemvalue="Application.CarlzSeq" />
-      <item itemvalue="Application.MONTEParalel_BETA" />
       <item itemvalue="Application.MontecarloPar" />
       <item itemvalue="Application.MontecarloSeq" />
+      <item itemvalue="Application.Monte_Carlo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarlzParalel" />
-        <item itemvalue="Application.CarlzSeq" />
-        <item itemvalue="Application.MontecarloSeq" />
+        <item itemvalue="Application.Monte_Carlo" />
+        <item itemvalue="Application.Gregory_Leibniz" />
         <item itemvalue="Application.MontecarloPar" />
-        <item itemvalue="Application.MONTEParalel_BETA" />
+        <item itemvalue="Application.MontecarloSeq" />
+        <item itemvalue="Application.CarlzSeq" />
       </list>
     </recent_temporary>
   </component>
@@ -253,28 +260,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="654" height="674" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2558515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6057047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.29759705" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32713756" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.34042552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32761312" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32713756" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32713756" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.29814816" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32592592" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32527882" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32983023" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2558299" />
@@ -314,44 +320,32 @@
     <entry file="file://$PROJECT_DIR$/src/teste.java" />
     <entry file="file://$PROJECT_DIR$/src/Assignment102_TESTE.java" />
     <entry file="file://$PROJECT_DIR$/src/MonteCarlo_Multithread_TESTE.java" />
-    <entry file="file://$PROJECT_DIR$/src/CarlzParalel.java">
+    <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java" />
+    <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java" />
+    <entry file="file://$PROJECT_DIR$/src/Monte_Carlo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="219">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarlzSeq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MontecarloPar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MontecarloSeq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MONTEParalel_BETA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+        <state relative-caret-position="1139">
+          <caret line="68" column="60" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gregory_Leibniz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
